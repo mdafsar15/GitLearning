@@ -1,0 +1,482 @@
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git add .
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in build.gradle.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in gradle/wrapper/gradle-wrapper.properties.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in gradlew.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in settings.gradle.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/java/com/quantitymeasurement/QuantitymeasurementApplication.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/resources/application.properties.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/test/java/com/quantitymeasurement/QuantitymeasurementApplicationTests.java.
+The file will have its original line endings in your working directory
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git reset
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git merge QuantityMeasurementUC8
+merge: QuantityMeasurementUC8 - not something we can merge
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git branch
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git remote -v
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git remote add origin https://github.com/mdafsar15/QuantityMeasurement.git
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git remote -v
+origin  https://github.com/mdafsar15/QuantityMeasurement.git (fetch)
+origin  https://github.com/mdafsar15/QuantityMeasurement.git (push)
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git branch
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git pull origin
+remote: Enumerating objects: 310, done.
+remote: Counting objects: 100% (310/310), done.
+remote: Compressing objects: 100% (179/179), done.
+remote: Total 310 (delta 76), reused 236 (delta 39), pack-reused 0
+Receiving objects: 100% (310/310), 114.99 KiB | 361.00 KiB/s, done.
+Resolving deltas: 100% (76/76), done.
+From https://github.com/mdafsar15/QuantityMeasurement
+ * [new branch]      QuantityMeasurementRefactor1 -> origin/QuantityMeasurementRefactor1
+ * [new branch]      QuantityMeasurementUC1 -> origin/QuantityMeasurementUC1
+ * [new branch]      QuantityMeasurementUC2 -> origin/QuantityMeasurementUC2
+ * [new branch]      QuantityMeasurementUC3 -> origin/QuantityMeasurementUC3
+ * [new branch]      QuantityMeasurementUC4 -> origin/QuantityMeasurementUC4
+ * [new branch]      QuantityMeasurementUC5 -> origin/QuantityMeasurementUC5
+ * [new branch]      QuantityMeasurementUC6 -> origin/QuantityMeasurementUC6
+ * [new branch]      QuantityMeasurementUC7 -> origin/QuantityMeasurementUC7
+ * [new branch]      QuantityMeasurementUC8 -> origin/QuantityMeasurementUC8
+ * [new branch]      master                 -> origin/master
+You asked to pull from the remote 'origin', but did not specify
+a branch. Because this is not the default configured remote
+for your current branch, you must specify a branch on the command line.
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git branch
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git checkout ^C
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git branch QuantityMeasurementUC1
+fatal: Not a valid object name: 'master'.
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git checkout QuantityMeasurementUC1
+error: The following untracked working tree files would be overwritten by checkout:
+        build.gradle
+        gradle/wrapper/gradle-wrapper.jar
+        gradle/wrapper/gradle-wrapper.properties
+        gradlew
+        gradlew.bat
+        settings.gradle
+        src/main/java/com/bl/customeException/QuantityMeasurementException.java
+        src/main/java/com/bl/quantityMeasurement/Feet.java
+        src/main/java/com/bl/quantityMeasurement/Inch.java
+        src/main/java/com/bl/quantityMeasurement/Length.java
+        src/test/java/QuantityTest.java
+Please move or remove them before you switch branches.
+Aborting
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git branch
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git pull origin master
+From https://github.com/mdafsar15/QuantityMeasurement
+ * branch            master     -> FETCH_HEAD
+error: The following untracked working tree files would be overwritten by merge:
+        build.gradle
+        gradlew
+        gradlew.bat
+        settings.gradle
+Please move or remove them before you merge.
+Aborting
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git fetch
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git add .
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in build.gradle.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in gradle/wrapper/gradle-wrapper.properties.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in gradlew.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in settings.gradle.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/java/com/quantitymeasurement/QuantitymeasurementApplication.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/resources/application.properties.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/test/java/com/quantitymeasurement/QuantitymeasurementApplicationTests.java.
+The file will have its original line endings in your working directory
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git commit -m "[Afsar]Added QuantityMeasurement"
+[master (root-commit) 23bd71d] [Afsar]Added QuantityMeasurement
+ 18 files changed, 628 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 build.gradle
+ create mode 100644 gradle/wrapper/gradle-wrapper.jar
+ create mode 100644 gradle/wrapper/gradle-wrapper.properties
+ create mode 100644 gradlew
+ create mode 100644 gradlew.bat
+ create mode 100644 settings.gradle
+ create mode 100644 src/main/java/com/bl/MeasurementOperations/MeasurementOperations.java
+ create mode 100644 src/main/java/com/bl/MeasurementOperations/QuantityType.java
+ create mode 100644 src/main/java/com/bl/customeException/QuantityMeasurementException.java
+ create mode 100644 src/main/java/com/bl/quantityMeasurement/Compare.java
+ create mode 100644 src/main/java/com/bl/quantityMeasurement/Feet.java
+ create mode 100644 src/main/java/com/bl/quantityMeasurement/Inch.java
+ create mode 100644 src/main/java/com/bl/quantityMeasurement/Length.java
+ create mode 100644 src/main/java/com/quantitymeasurement/QuantitymeasurementApplication.java
+ create mode 100644 src/main/resources/application.properties
+ create mode 100644 src/test/java/QuantityTest.java
+ create mode 100644 src/test/java/com/quantitymeasurement/QuantitymeasurementApplicationTests.java
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git push origin master
+To https://github.com/mdafsar15/QuantityMeasurement.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/mdafsar15/QuantityMeasurement.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git pull origin master
+From https://github.com/mdafsar15/QuantityMeasurement
+ * branch            master     -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git push origin master
+To https://github.com/mdafsar15/QuantityMeasurement.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/mdafsar15/QuantityMeasurement.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git pull origin master
+From https://github.com/mdafsar15/QuantityMeasurement
+ * branch            master     -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git fetch
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git stash
+No local changes to save
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git push origin -f master
+Enumerating objects: 36, done.
+Counting objects: 100% (36/36), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (30/30), done.
+Writing objects: 100% (36/36), 59.64 KiB | 4.97 MiB/s, done.
+Total 36 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/mdafsar15/QuantityMeasurement.git
+ + 12a20d7...23bd71d master -> master (forced update)
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git branch
+* master
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git checkout QuantityMeasuremtUC1
+error: pathspec 'QuantityMeasuremtUC1' did not match any file(s) known to git
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git checkout QuantityMeasurementUC1
+Switched to a new branch 'QuantityMeasurementUC1'
+Branch 'QuantityMeasurementUC1' set up to track remote branch 'QuantityMeasurementUC1' from 'origin'.
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (QuantityMeasurementUC1)
+$ git fetch
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (QuantityMeasurementUC1)
+$ git pull origin QuantityMeasurementUC1
+From https://github.com/mdafsar15/QuantityMeasurement
+ * branch            QuantityMeasurementUC1 -> FETCH_HEAD
+Already up to date.
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (QuantityMeasurementUC1)
+$ git fetch head
+fatal: 'head' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (QuantityMeasurementUC1)
+$ git checkout master
+Switched to branch 'master'
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git checkout QuantityMeasurementUC1
+Switched to branch 'QuantityMeasurementUC1'
+Your branch is up to date with 'origin/QuantityMeasurementUC1'.
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (QuantityMeasurementUC1)
+$ git checkout master
+Switched to branch 'master'
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ cd ..
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects
+$ git clone https://github.com/mdafsar15/QuantityMeasurement.git
+fatal: destination path 'QuantityMeasurement' already exists and is not an empty directory.
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects
+$ cd ..
+
+HP@DESKTOP-IK65DAA MINGW64 ~
+$ cd I
+IdeaProjects/          IntelGraphicsProfiles/
+
+HP@DESKTOP-IK65DAA MINGW64 ~
+$ cd IdeaProjects/
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects
+$ cd ..
+
+HP@DESKTOP-IK65DAA MINGW64 ~
+$ cd IdeaProjects/
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects
+$ git clone https://github.com/mdafsar15/QuantityMeasurement.git
+fatal: destination path 'QuantityMeasurement' already exists and is not an empty directory.
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects
+$ cd QuantityMeasurement
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git clone https://github.com/mdafsar15/QuantityMeasurement.git
+Cloning into 'QuantityMeasurement'...
+remote: Enumerating objects: 336, done.
+remote: Counting objects: 100% (336/336), done.
+remote: Compressing objects: 100% (201/201), done.
+remote: Total 336 (delta 84), reused 261 (delta 40), pack-reused 0
+Receiving objects: 100% (336/336), 142.36 KiB | 376.00 KiB/s, done.
+Resolving deltas: 100% (84/84), done.
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git branch
+  QuantityMeasurementUC1
+* master
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git checkout QuantityMeasurementUC1
+Switched to branch 'QuantityMeasurementUC1'
+Your branch is up to date with 'origin/QuantityMeasurementUC1'.
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (QuantityMeasurementUC1)
+$ git branch
+  QuantityMeasurementUC1
+* master
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git checkout
+FETCH_HEAD                            origin/QuantityMeasurementUC7
+HEAD                                  origin/QuantityMeasurementUC8
+master                                QuantityMeasurementRefactor1
+ORIG_HEAD                             QuantityMeasurementUC1
+origin/master                         QuantityMeasurementUC2
+origin/QuantityMeasurementRefactor1   QuantityMeasurementUC3
+origin/QuantityMeasurementUC1         QuantityMeasurementUC4
+origin/QuantityMeasurementUC2         QuantityMeasurementUC5
+origin/QuantityMeasurementUC3         QuantityMeasurementUC6
+origin/QuantityMeasurementUC4         QuantityMeasurementUC7
+origin/QuantityMeasurementUC5         QuantityMeasurementUC8
+origin/QuantityMeasurementUC6
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (master)
+$ git checkout QuantityMeasurementUC2
+Switched to a new branch 'QuantityMeasurementUC2'
+Branch 'QuantityMeasurementUC2' set up to track remote branch 'QuantityMeasurementUC2' from 'origin'.
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (QuantityMeasurementUC2)
+$ git branch
+  QuantityMeasurementUC1
+* QuantityMeasurementUC2
+  master
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (QuantityMeasurementUC2)
+$ git checkout QuantityMeasurementUC3
+Switched to a new branch 'QuantityMeasurementUC3'
+M       .gradle/5.2.1/executionHistory/executionHistory.bin
+M       .gradle/5.2.1/executionHistory/executionHistory.lock
+M       .gradle/5.2.1/fileHashes/fileHashes.bin
+M       .gradle/5.2.1/fileHashes/fileHashes.lock
+M       .gradle/5.2.1/fileHashes/resourceHashesCache.bin
+M       .gradle/5.2.1/javaCompile/classAnalysis.bin
+M       .gradle/5.2.1/javaCompile/jarAnalysis.bin
+M       .gradle/5.2.1/javaCompile/javaCompile.lock
+M       .gradle/5.2.1/javaCompile/taskHistory.bin
+M       .gradle/buildOutputCleanup/buildOutputCleanup.lock
+M       .gradle/buildOutputCleanup/outputFiles.bin
+M       .idea/workspace.xml
+D       build/classes/java/main/com/bl/quantityMeasurement/AddQuantity.class
+M       build/classes/java/main/com/bl/quantityMeasurement/Compare.class
+M       build/classes/java/main/com/bl/quantityMeasurement/QuantityMeasurement.class
+M       build/classes/java/main/com/bl/quantityMeasurmentEnum/MeasurementOperations.class
+M       build/classes/java/main/com/bl/quantityMeasurmentEnum/QuantityType.class
+M       build/classes/java/test/QuantityMeasurementTest.class
+D       build/reports/tests/test/classes/QuantityMeasurementTest.html
+M       build/reports/tests/test/css/base-style.css
+M       build/reports/tests/test/css/style.css
+M       build/reports/tests/test/index.html
+M       build/reports/tests/test/js/report.js
+D       build/reports/tests/test/packages/default-package.html
+D       build/test-results/test/TEST-QuantityMeasurementTest.xml
+M       build/test-results/test/binary/results.bin
+Branch 'QuantityMeasurementUC3' set up to track remote branch 'QuantityMeasurementUC3' from 'origin'.
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (QuantityMeasurementUC3)
+$ git branch
+  QuantityMeasurementUC1
+  QuantityMeasurementUC2
+* QuantityMeasurementUC3
+  master
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (QuantityMeasurementUC3)
+$ git checkout QuantityMeasurementUC4
+error: Your local changes to the following files would be overwritten by checkout:
+        src/main/java/com/bl/quantityMeasurement/QuantityMeasurement.java
+        src/test/java/quantitymeasurementtest/QuantityMeasurementTest.java
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (QuantityMeasurementUC3)
+$ git checkout QuantityMeasurementUC4
+warning: unable to rmdir 'QuantityMeasurement': Directory not empty
+Switched to a new branch 'QuantityMeasurementUC4'
+Branch 'QuantityMeasurementUC4' set up to track remote branch 'QuantityMeasurementUC4' from 'origin'.
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (QuantityMeasurementUC4)
+$ git checkout QuantityMeasurementUC5
+error: Your local changes to the following files would be overwritten by checkout:
+        src/main/java/com/bl/quantityMeasurement/QuantityMeasurement.java
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (QuantityMeasurementUC4)
+$ git checkout QuantityMeasurementUC5
+warning: unable to rmdir 'QuantityMeasurement': Directory not empty
+Switched to a new branch 'QuantityMeasurementUC5'
+Branch 'QuantityMeasurementUC5' set up to track remote branch 'QuantityMeasurementUC5' from 'origin'.
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (QuantityMeasurementUC5)
+$ git checkout QuantityMeasurementUC6
+warning: unable to rmdir 'QuantityMeasurement': Directory not empty
+Switched to a new branch 'QuantityMeasurementUC6'
+Branch 'QuantityMeasurementUC6' set up to track remote branch 'QuantityMeasurementUC6' from 'origin'.
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (QuantityMeasurementUC6)
+$ git checkout QuantityMeasurementUC7
+warning: unable to rmdir 'QuantityMeasurement': Directory not empty
+Switched to a new branch 'QuantityMeasurementUC7'
+M       .idea/workspace.xml
+Branch 'QuantityMeasurementUC7' set up to track remote branch 'QuantityMeasurementUC7' from 'origin'.
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (QuantityMeasurementUC7)
+$ git checkout QuantityMeasurementUC8
+error: Your local changes to the following files would be overwritten by checkout:
+        .idea/workspace.xml
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (QuantityMeasurementUC7)
+$ git checkout QuantityMeasurementUC8
+warning: unable to rmdir 'QuantityMeasurement': Directory not empty
+Switched to a new branch 'QuantityMeasurementUC8'
+Branch 'QuantityMeasurementUC8' set up to track remote branch 'QuantityMeasurementUC8' from 'origin'.
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (QuantityMeasurementUC8)
+$ git branch
+  QuantityMeasurementUC1
+  QuantityMeasurementUC2
+  QuantityMeasurementUC3
+  QuantityMeasurementUC4
+  QuantityMeasurementUC5
+  QuantityMeasurementUC6
+  QuantityMeasurementUC7
+* QuantityMeasurementUC8
+  master
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (QuantityMeasurementUC8)
+$ git checkout QuantityMeasurementRefactor1
+error: Your local changes to the following files would be overwritten by checkout:
+        .gradle/5.2.1/executionHistory/executionHistory.bin
+        .gradle/5.2.1/executionHistory/executionHistory.lock
+        .gradle/5.2.1/fileHashes/fileHashes.bin
+        .gradle/5.2.1/fileHashes/fileHashes.lock
+        .gradle/5.2.1/fileHashes/resourceHashesCache.bin
+        .gradle/5.2.1/javaCompile/classAnalysis.bin
+        .gradle/5.2.1/javaCompile/jarAnalysis.bin
+        .gradle/5.2.1/javaCompile/javaCompile.lock
+        .gradle/5.2.1/javaCompile/taskHistory.bin
+        .gradle/buildOutputCleanup/buildOutputCleanup.lock
+        .gradle/buildOutputCleanup/outputFiles.bin
+        .idea/workspace.xml
+        build/classes/java/main/com/bl/quantityMeasurement/Compare.class
+        build/classes/java/main/com/bl/quantityMeasurement/QuantityMeasurement.class
+        build/classes/java/main/com/bl/quantityMeasurmentEnum/MeasurementOperations.class
+        build/classes/java/main/com/bl/quantityMeasurmentEnum/QuantityType.class
+        build/classes/java/test/QuantityMeasurementTest.class
+        build/reports/tests/test/classes/QuantityMeasurementTest.html
+        build/reports/tests/test/index.html
+        build/reports/tests/test/packages/default-package.html
+        build/test-results/test/TEST-QuantityMeasurementTest.xml
+        build/test-results/test/binary/results.bin
+        src/main/java/com/bl/quantityMeasurmentEnum/QuantityType.java
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (QuantityMeasurementUC8)
+$ git checkout QuantityMeasurementRefactor1
+warning: unable to rmdir 'QuantityMeasurement': Directory not empty
+Switched to a new branch 'QuantityMeasurementRefactor1'
+Branch 'QuantityMeasurementRefactor1' set up to track remote branch 'QuantityMeasurementRefactor1' from 'origin'.
+
+HP@DESKTOP-IK65DAA MINGW64 ~/IdeaProjects/QuantityMeasurement (QuantityMeasurementRefactor1)
+$
